@@ -39,7 +39,7 @@ export default function Header() {
                             onClick={openSidebar}>
                             <FontAwesomeIcon icon={faBars} />
                         </button>
-                        <h1 className="lg:text-3xl text-xl font-bold lg:mx-8 mx-3">SHOP.CO</h1>
+                        <h1 className="lg:text-3xl text-xl font-bold lg:mx-8 mx-3">EMELDASTORES</h1>
                     </div>
                     <nav className="flex space-x-8 mx-7">
                         <Link to={'/categorypage'}>
