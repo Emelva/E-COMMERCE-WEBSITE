@@ -1,4 +1,4 @@
-import { Link } from "react-router"
+import { Link } from "react-router-dom"
 import { Products } from "~/routes/products"
 export default function ProductList(){
     return (

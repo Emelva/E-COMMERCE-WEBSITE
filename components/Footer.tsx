@@ -1,7 +1,6 @@
-import { faApplePay, faCcMastercard, faFacebook, faGithub, faGooglePay, faInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faApplePay, faFacebook, faGithub, faGooglePay, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faTwitter } from "@fortawesome/free-brands-svg-icons/faTwitter";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
-import { faAppleAlt } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default function Footer(){
     return (
