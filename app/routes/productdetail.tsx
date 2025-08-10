@@ -1,7 +1,7 @@
 import Footer from "components/Footer";
 import Header from "components/Header";
 
-import { Link, useParams } from "react-router";
+import { Link, useParams } from "react-router-dom";
 import { Products } from "./products";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar, faStarHalf } from "@fortawesome/free-regular-svg-icons";

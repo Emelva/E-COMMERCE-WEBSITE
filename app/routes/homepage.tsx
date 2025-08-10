@@ -2,10 +2,9 @@
 import Footer from "components/Footer";
 import Header from "components/Header";
 import ImageSlider from "components/ImageSlider";
-import Product from "components/ProductList";
 import Review from "components/Review";
 import { newArrivals, Products, topSelling } from "./products";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-regular-svg-icons";
 

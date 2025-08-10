@@ -4,7 +4,7 @@ import Cart from "components/Cart";
 import Footer from "components/Footer";
 import Header from "components/Header";
 import { useSelector } from "react-redux";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 
 
 export default function CartPage(){

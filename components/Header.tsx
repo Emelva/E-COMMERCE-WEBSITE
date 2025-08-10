@@ -3,7 +3,7 @@ import { faAngleDown, faBars, faSearch, faShoppingCart } from "@fortawesome/free
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 import { useSelector } from "react-redux";
-import { Link } from "react-router";
+import { Link } from "react-router-dom";
 import Sidebar from "./Sidebar";
 
 export default function Header() {
