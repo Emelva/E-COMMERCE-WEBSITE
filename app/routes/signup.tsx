@@ -1,6 +1,12 @@
 import { useState } from "react";
 import { useNavigate } from "react-router";
 
+export default function SignUp() {
+    return (
+        <div>hi</div>
+    )
+}
+
 // export default function SignUp() {
 //     const[user, setUser] = useState({
 //         email: '',
