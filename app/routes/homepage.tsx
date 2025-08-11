@@ -28,18 +28,18 @@ export default function HomePage(){
                         <p className="lg:text-4xl text-2xl font-black lg:ml-3 ml-1">MATCHES YOUR STYLE</p>
                         <p className="mt-3 lg:ml-3">Browse through our diverse range of meticulousely crafted garments, designed</p>
                         <p className="lg:ml-3">to bring out your individuality and cater to your sense of style</p>
-                        <button className="bg-black text-white font-bold lg:p-2 p-1 w-60 lg:w-80 ml-3 rounded-2xl my-8">Shop now</button>
+                        <button className="bg-black text-white font-bold p-2 w-80 ml-3 rounded-2xl my-8">Shop now</button>
 
-                        <div className="mt-20 flex ">
-                            <div className="lg:ml-6 ml-3">
+                        <div className="mt-20 lg:flex grid grid-cols-2 ">
+                            <div className="lg:ml-6 ml-2">
                                 <p className="lg:text-3xl text-2xl">200+</p>
                                 <span>International Brands</span>
                             </div>
-                            <div className="lg:ml-10 ml-3">
+                            <div className="lg:ml-10 ml-1">
                                 <p className="lg:text-3xl text-2xl">2,000+</p>
                                 <span>High-Quality Products</span>
                             </div>
-                            <div className="lg:ml-10 ml-3">
+                            <div className="lg:ml-10 ml-20 col-span-1">
                                 <p className="lg:text-3xl text-2xl">30,000+</p>
                                 <span>Happy Customers</span>
                             </div>
@@ -49,8 +49,8 @@ export default function HomePage(){
                     <img className="bg-cover object-cover w-170 h-130  mr-0" src="/assets/whiteModelDress.jpg" alt="" />
                 </div>
 
-                <div className="flex lg:text-2xl text-amber-50 bg-black space-x-16 lg:p-4 p-2 font-bold items-center justify-center">
-                    <p className="lg:mr-20 mr-10">VERSECE</p>
+                <div className="lg:flex grid grid-cols-2 lg:text-2xl text-amber-50 bg-black space-x-16 lg:p-4  font-bold items-center justify-center">
+                    <p className="lg:mr-20 mr-10">VERSACE</p>
                     <p className="lg:ml-20 ml-9 font-serif">ZARA</p>
                     <p className="lg:ml-20 ml-9 font-stretch-50%">GUCCI</p>
                     <p className="lg:ml-20 ml-9 font-mono">PRADA</p>

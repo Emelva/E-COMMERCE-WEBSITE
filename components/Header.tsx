@@ -39,7 +39,7 @@ export default function Header() {
                             onClick={openSidebar}>
                             <FontAwesomeIcon icon={faBars} />
                         </button>
-                        <h1 className="lg:text-3xl text-xl font-bold lg:mx-8 mx-3">EMELDASTORES</h1>
+                        <h1 className="lg:text-3xl text-xl font-bold lg:mx-8 mx-1">EMELDASTORES.CO</h1>
                     </div>
                     <nav className="flex space-x-8 mx-7">
                         <Link to={'/categorypage'}>
@@ -58,7 +58,7 @@ export default function Header() {
                         <input className="rounded-xl hidden lg:block bg-gray-200 lg:p-2 lg:w-110 lg:pl-12 outline-0" type="text" placeholder="Search for products ..." />
                         <p className=" absolute top-3 left-2 hidden lg:block"><FontAwesomeIcon icon={faSearch} /></p>
                     </div>
-                    <div className=" flex items-center justify-center lg:space-x-4 lg:mx-9 ">
+                    <div className=" flex items-center justify-center lg:space-x-4 lg:mx-9">
                         <p className="lg:hidden block"><FontAwesomeIcon icon={faSearch} /></p>
                         <Link to="/cartpage">
                             <p className="relative"><FontAwesomeIcon icon={faShoppingCart} />
