@@ -28,7 +28,9 @@ export default function HomePage(){
                         <p className="lg:text-4xl text-2xl font-black lg:ml-3 ml-1">MATCHES YOUR STYLE</p>
                         <p className="mt-3 lg:ml-3">Browse through our diverse range of meticulousely crafted garments, designed</p>
                         <p className="lg:ml-3">to bring out your individuality and cater to your sense of style</p>
+                        <Link to={'/categorypage'}>
                         <button className="bg-black text-white font-bold p-2 w-80 ml-3 rounded-2xl my-8">Shop now</button>
+                        </Link>
 
                         <div className="mt-20 lg:flex grid grid-cols-2 ">
                             <div className="lg:ml-6 ml-2">

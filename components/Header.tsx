@@ -3,10 +3,14 @@ import { faAngleDown, faBars, faSearch, faShoppingCart } from "@fortawesome/free
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 import { useSelector } from "react-redux";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import Sidebar from "./Sidebar";
 
 export default function Header() {
+    const nav = useNavigate();
+    function handleNav (){
+        nav('/');
+    }
     const cart = useSelector((state) => state.cart.cart);
     const getTotalQuantity = () => {
         let total = 0;
@@ -26,20 +30,21 @@ export default function Header() {
 
     return (
         <div>
-            <header className="fixed left-0 right-0 top-0" >
+            <header className="fixed left-0 right-0 top-0 z-4" >
                 <div className="bg-black text-white lg:flex lg:items-center lg:justify-center lg:space-x-10" >
                     <p className="lg:mx-3 lg:text-xl text-sm">Sign up and get 20% off on your first order
                         <span className="mx-2 underline hover:text-amber-100">Sign Up Now</span>
                     </p>
                     <p className="lg:ml-60 font-bold mr-0">X</p>
                 </div>
-                <div className="bg-white text-black flex items-center shadow-2xl lg:space-x-9 space-x-3.5 lg:py-3">
-                    <div className="flex space-x-3 items-center justify-center">
+                <div className="bg-white text-black flex items-center shadow-2xl lg:space-x-9 lg:py-3">
+                    <div className="flex lg:space-x-3 lg:items-center lg:justify-center">
                         <button className="lg:hidden"
                             onClick={openSidebar}>
                             <FontAwesomeIcon icon={faBars} />
                         </button>
-                        <h1 className="lg:text-3xl text-xl font-bold lg:mx-8 mx-1">EMELDASTORES.CO</h1>
+                        <h1 className="lg:text-3xl text-xl font-bold lg:mx-8 mx-1 cursor-pointer"
+                        onClick={handleNav}>MELSHOP.CO</h1>
                     </div>
                     <nav className="flex space-x-8 mx-7">
                         <Link to={'/categorypage'}>

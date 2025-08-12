@@ -1,7 +1,7 @@
 import { faAngleDown, faFilter } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-export default function NavItems(){
+export default function NavItems({filterCategory, onFilterChange}){
     return (
         <div className="mt-25 m-4">
             <div className="flex space-x-3 mb-3">
@@ -17,13 +17,29 @@ export default function NavItems(){
                     <FontAwesomeIcon icon={faFilter}/>
                 </div>
 
-                <nav className=" mt-7 flex flex-col space-y-4">
+                <div>
+                    
+                    <div className="grid grid-cols-2 gap-20 mt-4">
+                        <button className="" onClick={() => onFilterChange('')}>All</button>
+                        <p><FontAwesomeIcon icon={faAngleDown}/></p>
+                    </div>
+
+                    {filterCategory.map((title) => (
+                        <div className="grid grid-cols-2 p-2 gap-20">
+                            <button key={title}
+                            onClick={() => onFilterChange(title)}>{title}</button>
+                            <p><FontAwesomeIcon icon={faAngleDown}/></p>
+                        </div>
+                    ))}
+                </div>
+
+                {/* <nav className=" mt-7 flex flex-col space-y-4">
                     <div className="flex gap-14 items-center justify-center">
-                        <p>T-Shirts</p>
+                        <p>All</p>
                         <FontAwesomeIcon icon={faAngleDown}/> 
                     </div>
                     <div className="flex gap-14 items-center justify-center">
-                        <p>Shorts</p>
+                        <p>Women</p>
                         <FontAwesomeIcon icon={faAngleDown}/> 
                     </div>
                     <div className="flex gap-14 items-center justify-center">
@@ -31,18 +47,20 @@ export default function NavItems(){
                         <FontAwesomeIcon icon={faAngleDown}/> 
                     </div>
                     <div className="flex gap-14 items-center justify-center">
-                        <p>Hoodie</p>
+                        <p>Men</p>
                         <FontAwesomeIcon icon={faAngleDown}/> 
                     </div>
                     <div className="flex gap-14 items-center justify-center">
                         <p>Jeans</p>
                         <FontAwesomeIcon icon={faAngleDown}/> 
                     </div>
-                </nav>
+                    <div className="flex gap-14 items-center justify-center">
+                        <p>Hair</p>
+                        <FontAwesomeIcon icon={faAngleDown}/> 
+                    </div>
+                </nav> */}
 
-                <p className="font-bold text-xl my-5">
-                    price
-                </p>
+                
 
                 <div className="mb-10">
                     <p className="font-bold text-xl my-5">Colors</p>

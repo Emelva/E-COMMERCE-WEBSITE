@@ -23,7 +23,7 @@ export const Products = [
         productName: 'Sheer Gown',
         description: 'Amp up your style with our latest collection, all the way from the finest stores in italy. With fabrics as soft as feathers, bring out the beauty in you while discovering your fashion.',
         price: '122.99',
-        category: 'dress',
+        category: 'Dress',
         quantity: 0,
         imageUrl: blackCloth
     },
@@ -32,7 +32,7 @@ export const Products = [
         productName: 'Shirt',
         description: 'Thinking of what to wear to the party? Our newest addition might be just what you need. for only $55.99, get more than your money worth',
         price: '55.99',
-        category: 'all',
+        category: 'Shirt',
         quantity: 0,
         imageUrl: blueShirt
     },
@@ -41,7 +41,7 @@ export const Products = [
         productName: 'Black Leather Heel',
         description: 'Slay hard, look hot and feel beautiful in this georgeous piece. Who knows, this might be just what was missing in your style. With qualities you will never regret, our latest masterpiece is just what you need',
         price: '98.99',
-        category: 'shoe',
+        category: 'Shoe',
         quantity: 0,
         imageUrl: blackLeatherHeel
     },
@@ -50,7 +50,7 @@ export const Products = [
         productName: 'Pumps',
         description: 'Amp up your style with our latest collection, all the way from the finest stores in italy. With fabrics as soft as feathers, bring out the beauty in you while discovering your fashion.',
         price: '65.99',
-        category: 'shoe',
+        category: 'Shoe',
         quantity: 0,
         imageUrl: blackPumps
     },
@@ -59,7 +59,7 @@ export const Products = [
         productName: 'blonde Hair Extension(22)',
         description: 'Slay hard, look hot and feel beautiful in this georgeous piece. Who knows, this might be just what was missing in your style. With qualities you will never regret, our latest masterpiece is just what you need',
         price: '87.99',
-        category: 'hair',
+        category: 'Hair',
         quantity: 0,
         imageUrl: blondeWig
     },
@@ -68,7 +68,7 @@ export const Products = [
         productName: 'rose gold Hair Etension(5)',
         description: 'Amp up your style with our latest collection, all the way from the finest stores in italy. With fabrics as soft as feathers, bring out the beauty in you while discovering your fashion.',
         price: '42.99',
-        category: 'hair',
+        category: 'Hair',
         quantity: 0,
         imageUrl: roseGoldWig
     },
@@ -77,7 +77,7 @@ export const Products = [
         productName: 'Kitten heel',
         description: 'Thinking of what to wear to the party? Our newest addition might be just what you need. for only $55.99, get more than your money worth',
         price: '32.99',
-        category: 'shoe',
+        category: 'Shoe',
         quantity: 0,
         imageUrl: kittenHeel
     },
@@ -86,7 +86,7 @@ export const Products = [
         productName: 'Striped Shirt',
         description: 'Amp up your style with our latest collection, all the way from the finest stores in italy. With fabrics as soft as feathers, bring out the beauty in you while discovering your fashion.',
         price: '80.99',
-        category: 'tops',
+        category: 'Shirt',
         quantity: 0,
         imageUrl: top
     },
@@ -95,7 +95,7 @@ export const Products = [
         productName: 'Two piece Outfit',
         description: 'Slay hard, look hot and feel beautiful in this georgeous piece. Who knows, this might be just what was missing in your style. With qualities you will never regret, our latest masterpiece is just what you need',
         price: '65.99',
-        category: 'tops',
+        category: 'Dress',
         quantity: 0,
         imageUrl: topNskirt
     },
@@ -104,7 +104,7 @@ export const Products = [
         productName: 'Strap Heel',
         description: 'Amp up your style with our latest collection, all the way from the finest stores in italy. With fabrics as soft as feathers, bring out the beauty in you while discovering your fashion.',
         price: '76.99',
-        category: 'shoe',
+        category: 'Shoe',
         quantity: 0,
         imageUrl: strapHeel
     },
@@ -113,7 +113,7 @@ export const Products = [
         productName: 'Simple Cashmere Sweater',
         description: 'Slay hard, look hot and feel beautiful in this georgeous piece. Who knows, this might be just what was missing in your style. With qualities you will never regret, our latest masterpiece is just what you need',
         price: '43.99',
-        category: 'men',
+        category: 'Men',
         quantity: 0,
         imageUrl: sweater
     },
@@ -122,7 +122,7 @@ export const Products = [
         productName: 'Hair Extension',
         description: 'Looking for the best grades and qualities this summer? look no further! our latest addition is here to save the day. plus you can get 20% off if you purchase two.',
         price: '129.99',
-        category: 'hair',
+        category: 'Hair',
         quantity: 0,
         imageUrl: manyWigs
     },
@@ -131,7 +131,7 @@ export const Products = [
         productName: 'pink Hair Extension(04)',
         description: 'Looking for the best grades and qualities this summer? look no further! our latest addition is here to save the day. plus you can get 20% off if you purchase two.',
         price: '147.99',
-        category: 'hair',
+        category: 'Hair',
         quantity: 0,
         imageUrl: pinkWig
     },
@@ -140,7 +140,7 @@ export const Products = [
         productName: 'Two piece Outfit',
         description: 'Looking for the best grades and qualities this summer? look no further! our latest addition is here to save the day. plus you can get 20% off if you purchase two.',
         price: '87.99',
-        category: 'women',
+        category: 'Women',
         quantity: 0,
         imageUrl: twoPiece
     },
@@ -149,7 +149,7 @@ export const Products = [
         productName: 'Skinny Fit blue jeans',
         description: 'Slay hard, look hot and feel beautiful in this georgeous piece. Who knows, this might be just what was missing in your style. With qualities you will never regret, our latest masterpiece is just what you need',
         price: '44.99',
-        category: 'jeans',
+        category: 'Jeans',
         quantity: 0,
         imageUrl: jeans
     },
@@ -158,7 +158,7 @@ export const Products = [
         productName: 'Disco skirt',
         description: 'Thinking of what to wear to the party? Our newest addition might be just what you need. for only $55.99, get more than your money worth',
         price: '74.99',
-        category: 'women',
+        category: 'Women',
         quantity: 0,
         imageUrl: discoSkirt
     },
